@@ -1,0 +1,11 @@
+services:
+  comiccraft:
+    build: .
+    ports:
+      - "8000:8000"
+    env_file:
+      - .env
+    volumes:
+      - ./app/static/panels:/app/app/static/panels
+      - ./app/static/exports:/app/app/static/exports
+      - ./app/storage:/app/app/storage

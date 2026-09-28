@@ -1,0 +1,6 @@
+# Optional: only needed for IMAGE_BACKEND=local
+torch>=2.5
+diffusers>=0.35
+transformers>=4.55
+accelerate>=1.10
+safetensors>=0.5
